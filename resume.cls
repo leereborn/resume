@@ -31,11 +31,11 @@
 ]{texgyretermes}
 
 \RequirePackage[
-	a4paper,
-	left=0.6in,
-	right=0.6in,
-	top=0.6in,
-	bottom=0.55in,
+	letterpaper,
+	left=0.3in,
+	right=0.3in,
+	top=0.3in,
+	bottom=0.3in,
 	nohead
 ]{geometry}
 
@@ -53,13 +53,13 @@
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
-\titlespacing*{\section}{0cm}{*1.8}{*1.8}
+\titlespacing*{\section}{0cm}{*0.8}{*0.8}
 
 \titleformat{\subsection}
   {\large\raggedright}
   {}{0em}
   {}
-\titlespacing*{\subsection}{0cm}{*1.8}{*0.6}
+\titlespacing*{\subsection}{0cm}{*0.6}{*0.6}
 
 \newcommand{\datedsection}[2]{%
   \section[#1]{#1 \hfill #2}%
@@ -109,10 +109,10 @@
 
 \newcommand{\basicInfo}[1]{
   \centerline{\sffamily\large{#1}}
-  \vspace{1.5ex}
+  \vspace{0.2ex}
 }
 
 \newcommand{\role}[2]{
-  {\par \textit{#1} ~ #2 \par}
-  \vspace{0.85ex}
+  {\par \textit{#1} \hfill #2 \par}
+  \vspace{0.4ex}
 }
