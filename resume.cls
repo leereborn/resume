@@ -34,7 +34,7 @@
 	letterpaper,
 	left=0.3in,
 	right=0.3in,
-	top=0.3in,
+	top=0.2in,
 	bottom=0.3in,
 	nohead
 ]{geometry}
@@ -73,7 +73,7 @@
 
 \newcommand{\name}[1]{
   \centerline{\Huge\scshape{#1}}
-  \vspace{1.25ex}
+  \vspace{1ex}
 }
 
 % defines one's name
