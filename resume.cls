@@ -32,8 +32,8 @@
 
 \RequirePackage[
 	letterpaper,
-	left=0.3in,
-	right=0.3in,
+	left=0.2in,
+	right=0.2in,
 	top=0.2in,
 	bottom=0.3in,
 	nohead
