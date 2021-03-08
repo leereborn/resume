@@ -53,13 +53,13 @@
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
-\titlespacing*{\section}{0cm}{*0.8}{*0.8}
+\titlespacing*{\section}{0cm}{*0.0}{*0.6}
 
 \titleformat{\subsection}
   {\large\raggedright}
   {}{0em}
   {}
-\titlespacing*{\subsection}{0cm}{*0.6}{*0.6}
+\titlespacing*{\subsection}{0cm}{*0.2}{*0.2}
 
 \newcommand{\datedsection}[2]{%
   \section[#1]{#1 \hfill #2}%
