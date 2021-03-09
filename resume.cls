@@ -11,7 +11,7 @@
 % use hyperlink for email and url
 \RequirePackage{hyperref}
 \hypersetup{hidelinks}
-\RequirePackage{url}
+\RequirePackage{xurl}
 \urlstyle{tt}
 % use fontawesome
 \RequirePackage{fontawesome}
@@ -32,10 +32,10 @@
 
 \RequirePackage[
 	letterpaper,
-	left=0.2in,
-	right=0.2in,
-	top=0.4in,
-	bottom=0.4in,
+	left=0.3in,
+	right=0.3in,
+	top=0.3in,
+	bottom=0.3in,
 	nohead
 ]{geometry}
 
@@ -53,13 +53,13 @@
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
-\titlespacing*{\section}{0cm}{*0.0}{*0.6}
+\titlespacing*{\section}{0cm}{*0.6}{*0.6}
 
 \titleformat{\subsection}
   {\large\raggedright}
   {}{0em}
   {}
-\titlespacing*{\subsection}{0cm}{*0.2}{*0.2}
+\titlespacing*{\subsection}{0cm}{*0.6}{*0.6}
 
 \newcommand{\datedsection}[2]{%
   \section[#1]{#1 \hfill #2}%
