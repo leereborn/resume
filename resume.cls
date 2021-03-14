@@ -32,10 +32,10 @@
 
 \RequirePackage[
 	letterpaper,
-	left=0.3in,
-	right=0.3in,
-	top=0.2in,
-	bottom=0.2in,
+	left=0.4in,
+	right=0.4in,
+	top=0.6in,
+	bottom=0.6in,
 	nohead
 ]{geometry}
 
