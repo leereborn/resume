@@ -34,8 +34,8 @@
 	letterpaper,
 	left=0.3in,
 	right=0.3in,
-	top=0.3in,
-	bottom=0.3in,
+	top=0.2in,
+	bottom=0.2in,
 	nohead
 ]{geometry}
 
