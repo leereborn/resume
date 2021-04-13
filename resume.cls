@@ -34,8 +34,8 @@
 	letterpaper,
 	left=0.4in,
 	right=0.4in,
-	top=0.6in,
-	bottom=0.6in,
+	top=0.3in,
+	bottom=0.4in,
 	nohead
 ]{geometry}
 
@@ -53,13 +53,13 @@
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
-\titlespacing*{\section}{0cm}{*0.6}{*0.6}
+\titlespacing*{\section}{0cm}{*0.3}{*0.3}
 
 \titleformat{\subsection}
   {\large\raggedright}
   {}{0em}
   {}
-\titlespacing*{\subsection}{0cm}{*0.6}{*0.6}
+\titlespacing*{\subsection}{0cm}{*0.2}{*0.2}
 
 \newcommand{\datedsection}[2]{%
   \section[#1]{#1 \hfill #2}%
